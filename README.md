@@ -33,7 +33,16 @@ python -m pip install -e .
 
 Note that the command ends with a dot.
 
-### 5. Extra
+### 5. Documentation and demos
+
+Detailed information and tutorials on the engine can be found at the [AML Engine API](https://aml-tools.readthedocs.io/en/latest/rst/amlapi/amlapi.html) webpage.
+
+**Interactive demos** also available on Google Colab: 
+*  [Vertical Bars Demo](https://colab.research.google.com/drive/1jPLPr5ZjGlA5HM6QCH3ejCEXTQ1l2PC3)
+*  [MNIST Demo](https://colab.research.google.com/drive/13kBeImhn3h1xW2H3giAon2klNvPhhMsW)
+*  [Hamiltonian Graphs Demo](https://colab.research.google.com/drive/1G7mZ42gY4xLmyU0BaSqPauQS8cHnzzm-)
+
+### 6. Extra
 
 If you plan to run example04_mnist.py you will need to obtain the MNIST dataset and place the files in `Examples/mnist_datasets` (the path can be modified in MNIST.py):
 
