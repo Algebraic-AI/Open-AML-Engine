@@ -30,7 +30,7 @@ def selectAtomsFromNegativeDuplesAndExplicit(
     OutK = contextConstantSet.copy()
     asetCopy = prioritizeByOutOfContextSet(asetCopy, OutK)
 
-    selection = startWith
+    selection = startWith.copy()
     if selection:
         raise NotImplementedError()
 
@@ -92,7 +92,7 @@ def selectAtomsFromNegativeDuples(atoms, negativeDuples, startWith, repeat):
 
     random.shuffle(asetCopy)
 
-    selection = startWith
+    selection = startWith.copy()
     for nr in negativeDuples:
         if lowerOrEqual(nr.L, nr.R, selection):
             discriminated = False
